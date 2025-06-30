@@ -1,0 +1,27 @@
+#nav {
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translateY(-50%, -50%);
+    .gnb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li {
+            margin-left: 20px;
+            &:first-child {
+                margin-left: 0;
+            }
+            a {
+                display: block;
+                padding: 0 5px;
+                font-size: 16px;
+                font-weight: 600;
+                transition: 0.3s;
+                &:hover {
+                    color: tomato;
+                }
+            }
+        }
+    }
+}

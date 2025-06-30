@@ -1,0 +1,27 @@
+#header {
+    .inner {
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        img {
+            width: 100px;
+        }
+    }
+    .all-menu {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        i {
+            font-size: 30px;
+        }
+    }
+}
